@@ -27,25 +27,18 @@ Copy the example environment file:
 cp .env.example .env
 ```
 
-Update `.env` file to match your database configuration:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=db
-DB_PORT=3306
-DB_DATABASE=laravue
-DB_USERNAME=user
-DB_PASSWORD=password
-```
-
 ### Running the Project with Docker
 
 ```sh
 docker-compose up -d --build
 ```
-
 This command will start the **app**, **MySQL database**, and **Nginx server**.
 
+### Updating composer and dependecies
+```sh
+docker-compose exec app composer install
+```
+This command will update the dependences for the project.
 
 ### Running Migrations & Seeding Database
 
