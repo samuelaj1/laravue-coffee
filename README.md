@@ -15,7 +15,7 @@ Ensure you have the following installed on your machine:
 ### Cloning the Repository
 
 ```sh
-git clone <your-repository-url>
+git clone https://github.com/samuelaj1/laravue-coffee.git
 cd laravue-coffee
 ```
 
