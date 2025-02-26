@@ -1,4 +1,5 @@
-# Laravel Vue (Laravue) Project
+# Competence Development
+Laravel Task
 
 ## Installation Guide
 
